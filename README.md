@@ -1,20 +1,15 @@
-# SKStore​Review​Controller (​10.3+) in Appcelerator Titanium
-[![Build Status](https://travis-ci.org/hansemannn/titanium-review-dialog?branch=master)](https://travis-ci.org/hansemannn/titanium-review-dialog) [![License](http://hans-knoechel.de/shields/shield-license.svg?v=1)](./LICENSE) [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg?v=1)](http://twitter.com/hansemannnn)
- 
+## SKStoreReviewController (iOS 10.3+) in Appcelerator Titanium
+[![Build Status](https://travis-ci.org/hansemannn/titanium-review-dialog.svg?branch=master)](https://travis-ci.org/hansemannn/titanium-review-dialog) [![License](http://hans-knoechel.de/shields/shield-license.svg?v=1)](./LICENSE) [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg?v=1)](http://twitter.com/hansemannnn)
+
 <img src="example/example-screen.png" width="320" alt="Example" />
 
- Summary
----------------
-Use the `SKStore​Review​Controller` from iOS 10.3+ in your Ttanium application.
+### Summary
+Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application.
 
-Requirements
----------------
+### Requirements
   - Titanium Mobile SDK 6.0.0.GA or later
   - iOS 10.3 or later
   - Xcode 8.3 or later
-
-Download + Setup
----------------
 
 ### Download
   * [Stable release](https://github.com/hansemannn/titanium-review-dialog/releases)
