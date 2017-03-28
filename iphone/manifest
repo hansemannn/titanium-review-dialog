@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: ti.reviewdialog
+author: Hans Knoechel
+license: Apache 2
+copyright: Copyright (c) 2017-Present by Hans Knoechel
+
+# these should not be edited
+name: ti.reviewdialog
+moduleid: ti.reviewdialog
+guid: 6f1b3b5d-db05-47da-9e7d-ebb4124cdd8d
+platform: iphone
+minsdk: 6.0.0.GA
