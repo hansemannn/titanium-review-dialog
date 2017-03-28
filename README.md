@@ -26,10 +26,14 @@ Edit the modules section of your `tiapp.xml` file to include this module:
 
 Request a new review dialog:
 ```javascript
-var ReviewDialog = require('ti.reviewdialog');
-ReviewDialog.requestReview();
+var Review = require('ti.reviewdialog');
+
+if (Review.isSupported()) {
+  Review.requestReview();
+}
 ```
 #### Methods
+- [x] `isSupported`
 - [x] `requestReview`
 
 ### Example
