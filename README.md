@@ -1,5 +1,5 @@
-# SKStore​Review​Controller (​10.3+) in Appcelerator Titanium
-[![Build Status](https://travis-ci.org/hansemannn/titanium-review-dialog?branch=master)](https://travis-ci.org/hansemannn/titanium-review-dialog) [![License](http://hans-knoechel.de/shields/shield-license.svg?v=1)](./LICENSE) [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg?v=1)](http://twitter.com/hansemannnn)
+# SKStoreReviewController (iOS 10.3+) in Appcelerator Titanium
+[![Build Status](https://travis-ci.org/hansemannn/titanium-review-dialog.svg?branch=master)](https://travis-ci.org/hansemannn/titanium-review-dialog) [![License](http://hans-knoechel.de/shields/shield-license.svg?v=1)](./LICENSE) [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg?v=1)](http://twitter.com/hansemannnn)
    
  Summary
 ---------------
