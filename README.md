@@ -24,6 +24,11 @@ Edit the modules section of your `tiapp.xml` file to include this module:
 </modules>
 ```
 
+### Hyperloop
+This module is also built in Hyperloop to demonstrate the native API access with JavaScript.
+You can simple require the `ti.reviewdialog.js` in your application and run it!
+
+### Example
 Request a new review dialog:
 ```javascript
 var Review = require('ti.reviewdialog');
@@ -35,9 +40,6 @@ if (Review.isSupported()) {
 #### Methods
 - [x] `isSupported`
 - [x] `requestReview`
-
-### Example
-For a full example, check the demo in `example/app.js`.
 
 ### Author
 Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](http://hans-knoechel.de))
