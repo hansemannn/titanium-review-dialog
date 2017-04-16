@@ -13,7 +13,7 @@ Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application.
 
 ### Download
   * [Stable release](https://github.com/hansemannn/titanium-review-dialog/releases)
-  * [![gitTio](http://hans-knoechel.de/shields/shield-gittio.svg)](http://gitt.io/component/titanium-review-dialog)
+  * [![gitTio](http://hans-knoechel.de/shields/shield-gittio.svg)](http://gitt.io/component/ti.reviewdialog)
 
 ### Setup
 Unpack the module and place it inside the `modules/iphone/` folder of your project.
