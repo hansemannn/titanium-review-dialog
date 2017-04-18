@@ -41,7 +41,7 @@
 #pragma Public APIs
 
 
-- (void)isSupported:(id)unused
+- (id)isSupported:(id)unused
 {
 #ifdef __IPHONE_10_3
     return NUMBOOL([[[UIDevice currentDevice] systemVersion] compare:@"10.3" options:NSNumericSearch] != NSOrderedAscending);

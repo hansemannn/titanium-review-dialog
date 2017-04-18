@@ -9,7 +9,7 @@
 
 @interface TiReviewdialogModule : TiModule
 
-- (void)isSupported:(id)unused;
+- (id)isSupported:(id)unused;
 
 - (void)requestReview:(id)unused;
 
