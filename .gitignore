@@ -1,1 +1,5 @@
 /iphone/build
+.DS_Store
+/iphone/dist
+/iphone/ti.reviewdialog.xcodeproj/project.xcworkspace
+/iphone/ti.reviewdialog.xcodeproj/xcuserdata
