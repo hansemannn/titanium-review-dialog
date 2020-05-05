@@ -1,16 +1,32 @@
-## SKStoreReviewController (iOS 10.3+) in Appcelerator Titanium
-[![Build Status](https://travis-ci.org/hansemannn/titanium-review-dialog.svg?branch=master)](https://travis-ci.org/hansemannn/titanium-review-dialog) [![License](http://hans-knoechel.de/shields/shield-license.svg?v=1)](./LICENSE) [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg?v=1)](http://twitter.com/hansemannnn)
+## Review Dialogs in Appcelerator Titanium
 
 <img src="example/example-screen.png" width="320" alt="Example" />
 
 ### Summary
-Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application.
+Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application. Also use a native Android dialog
+for best parity.
 
 ### Requirements
   - Titanium Mobile SDK 8+
   - iOS 10.3+
+  - Android 4.4+
   
-### Usage
+### Android Usage
+
+```js
+import Review from 'ti.reviewdialog';
+
+if (!Review.isSupported()) { return; }
+
+Review.requestReview({
+  storeURL: `https://play.google.com/store/apps/details?id=${Ti.App.id}`
+  onFeedback: event => {
+    // Send feedback to your server via "event.value"
+  }
+});
+```
+  
+### iOS Usage
 
 There are some important notes on when to show the rating dialog (thanks to [@skypanther](https://github.com/skypanther):
 
@@ -60,11 +76,12 @@ if (countOfSomeUserAction >= 4) {
   * [![gitTio](http://hans-knoechel.de/shields/shield-gittio.svg)](http://gitt.io/component/ti.reviewdialog)
 
 ### Setup
-Unpack the module and place it inside the `modules/iphone/` folder of your project.
+Unpack the modules and place them inside the `modules/iphone/` and `modules/android/` folder of your project.
 Edit the modules section of your `tiapp.xml` file to include this module:
 ```xml
 <modules>
     <module platform="iphone">ti.reviewdialog</module>
+    <module platform="android">ti.reviewdialog</module>
 </modules>
 ```
 
@@ -82,7 +99,7 @@ if (Review.isSupported()) {
 - [x] `requestReview`
 
 ### Author
-Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](http://hans-knoechel.de))
+Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](https://hans-knoechel.de))
 
 ### License
 Apache 2.0
