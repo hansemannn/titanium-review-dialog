@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared clean"
+  ],
+  "buildTargetsCommand": "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared -j12 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ti.reviewdialog-release-x86_64": {
+      "artifactName": "ti.reviewdialog",
+      "buildCommand": "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared -j12 /Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/obj/local/x86_64/libti.reviewdialog.so",
+      "abi": "x86_64",
+      "output": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/release/obj/local/x86_64/libti.reviewdialog.so"
+    }
+  }
+}

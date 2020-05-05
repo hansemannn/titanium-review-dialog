@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout-v21/notification_action.xml"
+    }
+]

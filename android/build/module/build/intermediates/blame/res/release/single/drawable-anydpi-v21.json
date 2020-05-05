@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

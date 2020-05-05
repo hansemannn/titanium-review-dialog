@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" group="ti.reviewdialog/module" />
+      <module fileurl="file://$PROJECT_DIR$/ti.reviewdialog.iml" filepath="$PROJECT_DIR$/ti.reviewdialog.iml" group="ti.reviewdialog" />
+    </modules>
+  </component>
+</project>

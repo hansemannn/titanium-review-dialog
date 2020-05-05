@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v13/values-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/4c18e0a46b9a6ca9e20f34f85b2642ba/appcompat-v7-25.3.1/res/values-v13/values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/values-v13/values-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/4c18e0a46b9a6ca9e20f34f85b2642ba/appcompat-v7-25.3.1/res/values-v13/values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

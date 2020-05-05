@@ -1,0 +1,5 @@
+fcntl(): Bad file descriptor
+fcntl(): Bad file descriptor
+fcntl(): Bad file descriptor
+fcntl(): Bad file descriptor
+fcntl(): Bad file descriptor

@@ -1,0 +1,278 @@
+[
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_time_picker_spinner.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_time_picker_spinner.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/4c18e0a46b9a6ca9e20f34f85b2642ba/appcompat-v7-25.3.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_toolbar.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_toolbar.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_drawer_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_drawer_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/dialog_rating.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/b9b87b6f70c12bfc01be9a5ba967ad67/ratingdialog-1.0.8/res/layout/dialog_rating.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_spinner.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_spinner.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_search_view.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_list_header_or_footer.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_list_header_or_footer.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_tooltip.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_tooltip.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_text_input_password_icon.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_date_picker_spinner.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_date_picker_spinner.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/mtrl_layout_snackbar_include.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/503562ad0b49ea9b111fcea9f0ce1e8a/media-1.1.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_edittext.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_edittext.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_cascading_menu_item_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_checkbox.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_checkbox.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/mtrl_layout_snackbar.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/d402cccce480439633abff22c82093c0/core-1.1.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/503562ad0b49ea9b111fcea9f0ce1e8a/media-1.1.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_switchcompat.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_switchcompat.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/titanium_ui_list_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res/layout/titanium_ui_list_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/0c660b9b996792cb36adaae606db762d/material-1.0.0/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/503562ad0b49ea9b111fcea9f0ce1e8a/media-1.1.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/Users/hans/.gradle/caches/transforms-2/files-2.1/f26a7358f2d416653016e41b09b913a7/appcompat-1.1.0/res/layout/abc_select_dialog_material.xml"
+    }
+]

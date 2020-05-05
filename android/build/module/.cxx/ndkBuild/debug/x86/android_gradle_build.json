@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared clean"
+  ],
+  "buildTargetsCommand": "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared -j12 {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "ti.reviewdialog-debug-x86": {
+      "buildCommand": "/Users/hans/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/lib APP_CPPFLAGS+\u003d-std\u003dc++11 APP_STL:\u003dc++_shared -j12 /Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/obj/local/x86/libti.reviewdialog.so",
+      "toolchain": "toolchain-x86",
+      "abi": "x86",
+      "artifactName": "ti.reviewdialog",
+      "files": [
+        {
+          "src": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/../../../build/ti-generated/jni/TiModuleBootstrap.cpp",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/hans/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni -std\u003dc++11 -DANDROID -g \"-I/Users/hans/Library/Application Support/Titanium/mobilesdk/osx/9.0.1.GA/android/native/include\" -Wno-conversion-null -Wno-format-security -Wno-format -Wno-tautological-compare -Wno-unused-result -Wno-deprecated-register -nostdinc++ -Wno-error\u003dformat-security -mstackrealign -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/../../../build/ti-generated/jni/ti.reviewdialog.ExampleProxy.cpp",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/hans/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni -std\u003dc++11 -DANDROID -g \"-I/Users/hans/Library/Application Support/Titanium/mobilesdk/osx/9.0.1.GA/android/native/include\" -Wno-conversion-null -Wno-format-security -Wno-format -Wno-tautological-compare -Wno-unused-result -Wno-deprecated-register -nostdinc++ -Wno-error\u003dformat-security -mstackrealign -fno-strict-aliasing"
+        },
+        {
+          "src": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni/../../../build/ti-generated/jni/ti.reviewdialog.TitaniumReviewDialogModule.cpp",
+          "flags": "-target i686-none-linux-android19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/hans/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fPIC -O0 -UNDEBUG -fno-limit-debug-info -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/hans/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -I/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/src/main/jni -std\u003dc++11 -DANDROID -g \"-I/Users/hans/Library/Application Support/Titanium/mobilesdk/osx/9.0.1.GA/android/native/include\" -Wno-conversion-null -Wno-format-security -Wno-format -Wno-tautological-compare -Wno-unused-result -Wno-deprecated-register -nostdinc++ -Wno-error\u003dformat-security -mstackrealign -fno-strict-aliasing"
+        }
+      ],
+      "output": "/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/build/module/build/intermediates/ndkBuild/debug/obj/local/x86/libti.reviewdialog.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86": {
+      "cppCompilerExecutable": "/Users/hans/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

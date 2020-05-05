@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: org.appcelerator:titanium:9.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/WebViewClient.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/nineoldandroids-appc-2.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/java_websocket.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/titanium-verify.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/aps-analytics.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/jaxen-1.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/582db93746f0d36deeb9910eb0ae1088/jetified-titanium-9.0.1/jars/libs/ti.cloak.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
