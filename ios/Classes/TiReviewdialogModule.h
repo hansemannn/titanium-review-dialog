@@ -5,7 +5,7 @@
  * Copyright (c) 2017 Your Company. All rights reserved.
  */
 
-#import "TiModule.h"
+#import <TitaniumKit/TitaniumKit.h>
 
 @interface TiReviewdialogModule : TiModule
 

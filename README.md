@@ -7,9 +7,8 @@
 Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application.
 
 ### Requirements
-  - Titanium Mobile SDK 6.0.0.GA or later
-  - iOS 10.3 or later
-  - Xcode 8.3 or later
+  - Titanium Mobile SDK 8+
+  - iOS 10.3+
   
 ### Usage
 
@@ -68,10 +67,6 @@ Edit the modules section of your `tiapp.xml` file to include this module:
     <module platform="iphone">ti.reviewdialog</module>
 </modules>
 ```
-
-### Hyperloop
-This module is also built in Hyperloop to demonstrate the native API access with JavaScript.
-You can simple require the `ti.reviewdialog.js` in your application and run it!
 
 ### Example
 Request a new review dialog:

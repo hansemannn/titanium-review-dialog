@@ -6,9 +6,6 @@
  */
 
 #import "TiReviewdialogModule.h"
-#import "TiBase.h"
-#import "TiHost.h"
-#import "TiUtils.h"
 #import <StoreKit/StoreKit.h>
 
 @implementation TiReviewdialogModule
@@ -35,7 +32,6 @@
 - (void)requestReview:(id)unused
 {
     ENSURE_UI_THREAD(requestReview, unused);
-    ENSURE_ARG_COUNT(unused, 0);
 
     if (![TiUtils isIOSVersionOrGreater:@"10.3"]) {
         NSLog(@"[ERROR] Ti.ReviewDialog: This feature is only available on iOS 10.3 and later.");
