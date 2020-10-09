@@ -11,6 +11,7 @@ NDK_LIBS_OUT=/Users/hans/Documents/dev/titanium/titanium-review-dialog/android/b
 APP_CPPFLAGS+=-std=c++11
 APP_STL:=c++_shared
 -j12
+--output-sync=none
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false
 -B

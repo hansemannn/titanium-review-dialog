@@ -96,8 +96,9 @@ Local<FunctionTemplate> TitaniumReviewDialogModule::getProxyTemplate(v8::Isolate
 	t->Set(titanium::Proxy::inheritSymbol.Get(isolate), FunctionTemplate::New(isolate, titanium::Proxy::inherit<TitaniumReviewDialogModule>));
 
 	// Method bindings --------------------------------------------------------
-	titanium::SetProtoMethod(isolate, t, "requestReview", TitaniumReviewDialogModule::requestReview);
 	titanium::SetProtoMethod(isolate, t, "isSupported", TitaniumReviewDialogModule::isSupported);
+	titanium::SetProtoMethod(isolate, t, "showFeedbackDialog", TitaniumReviewDialogModule::showFeedbackDialog);
+	titanium::SetProtoMethod(isolate, t, "requestReview", TitaniumReviewDialogModule::requestReview);
 
 	Local<ObjectTemplate> prototypeTemplate = t->PrototypeTemplate();
 	Local<ObjectTemplate> instanceTemplate = t->InstanceTemplate();
@@ -121,104 +122,6 @@ Local<FunctionTemplate> TitaniumReviewDialogModule::getProxyTemplate(v8::Local<v
 }
 
 // Methods --------------------------------------------------------------------
-void TitaniumReviewDialogModule::requestReview(const FunctionCallbackInfo<Value>& args)
-{
-	LOGD(TAG, "requestReview()");
-	Isolate* isolate = args.GetIsolate();
-	Local<Context> context = isolate->GetCurrentContext();
-	HandleScope scope(isolate);
-
-	JNIEnv *env = titanium::JNIScope::getEnv();
-	if (!env) {
-		titanium::JSException::GetJNIEnvironmentError(isolate);
-		return;
-	}
-	static jmethodID methodID = NULL;
-	if (!methodID) {
-		methodID = env->GetMethodID(TitaniumReviewDialogModule::javaClass, "requestReview", "(Lorg/appcelerator/kroll/KrollDict;)V");
-		if (!methodID) {
-			const char *error = "Couldn't find proxy method 'requestReview' with signature '(Lorg/appcelerator/kroll/KrollDict;)V'";
-			LOGE(TAG, error);
-				titanium::JSException::Error(isolate, error);
-				return;
-		}
-	}
-
-	Local<Object> holder = args.Holder();
-	if (!JavaObject::isJavaObject(holder)) {
-		holder = holder->FindInstanceInPrototypeChain(getProxyTemplate(isolate));
-	}
-	if (holder.IsEmpty() || holder->IsNull()) {
-		if (!moduleInstance.IsEmpty()) {
-			holder = moduleInstance.Get(isolate);
-			if (holder.IsEmpty() || holder->IsNull()) {
-				LOGE(TAG, "Couldn't obtain argument holder");
-				args.GetReturnValue().Set(v8::Undefined(isolate));
-				return;
-			}
-		} else {
-			LOGE(TAG, "Couldn't obtain argument holder");
-			args.GetReturnValue().Set(v8::Undefined(isolate));
-			return;
-		}
-	}
-	titanium::Proxy* proxy = NativeObject::Unwrap<titanium::Proxy>(holder);
-	if (!proxy) {
-		args.GetReturnValue().Set(Undefined(isolate));
-		return;
-	}
-
-	if (args.Length() < 1) {
-		char errorStringBuffer[100];
-		sprintf(errorStringBuffer, "requestReview: Invalid number of arguments. Expected 1 but got %d", args.Length());
-		titanium::JSException::Error(isolate, errorStringBuffer);
-		return;
-	}
-
-	jvalue jArguments[1];
-
-
-
-
-	bool isNew_0;
-	if (!args[0]->IsNull()) {
-		Local<Value> arg_0 = args[0];
-		jArguments[0].l =
-			titanium::TypeConverter::jsObjectToJavaKrollDict(
-				isolate,
-				env, arg_0, &isNew_0);
-	} else {
-		jArguments[0].l = NULL;
-	}
-
-
-	jobject javaProxy = proxy->getJavaObject();
-	if (javaProxy == NULL) {
-		args.GetReturnValue().Set(v8::Undefined(isolate));
-		return;
-	}
-	env->CallVoidMethodA(javaProxy, methodID, jArguments);
-
-	proxy->unreferenceJavaObject(javaProxy);
-
-
-
-			if (isNew_0) {
-				env->DeleteLocalRef(jArguments[0].l);
-			}
-
-
-	if (env->ExceptionCheck()) {
-		titanium::JSException::fromJavaException(isolate);
-		env->ExceptionClear();
-	}
-
-
-
-
-	args.GetReturnValue().Set(v8::Undefined(isolate));
-
-}
 void TitaniumReviewDialogModule::isSupported(const FunctionCallbackInfo<Value>& args)
 {
 	LOGD(TAG, "isSupported()");
@@ -294,6 +197,176 @@ void TitaniumReviewDialogModule::isSupported(const FunctionCallbackInfo<Value>& 
 
 
 	args.GetReturnValue().Set(v8Result);
+
+}
+void TitaniumReviewDialogModule::showFeedbackDialog(const FunctionCallbackInfo<Value>& args)
+{
+	LOGD(TAG, "showFeedbackDialog()");
+	Isolate* isolate = args.GetIsolate();
+	Local<Context> context = isolate->GetCurrentContext();
+	HandleScope scope(isolate);
+
+	JNIEnv *env = titanium::JNIScope::getEnv();
+	if (!env) {
+		titanium::JSException::GetJNIEnvironmentError(isolate);
+		return;
+	}
+	static jmethodID methodID = NULL;
+	if (!methodID) {
+		methodID = env->GetMethodID(TitaniumReviewDialogModule::javaClass, "showFeedbackDialog", "(Lorg/appcelerator/kroll/KrollDict;)V");
+		if (!methodID) {
+			const char *error = "Couldn't find proxy method 'showFeedbackDialog' with signature '(Lorg/appcelerator/kroll/KrollDict;)V'";
+			LOGE(TAG, error);
+				titanium::JSException::Error(isolate, error);
+				return;
+		}
+	}
+
+	Local<Object> holder = args.Holder();
+	if (!JavaObject::isJavaObject(holder)) {
+		holder = holder->FindInstanceInPrototypeChain(getProxyTemplate(isolate));
+	}
+	if (holder.IsEmpty() || holder->IsNull()) {
+		if (!moduleInstance.IsEmpty()) {
+			holder = moduleInstance.Get(isolate);
+			if (holder.IsEmpty() || holder->IsNull()) {
+				LOGE(TAG, "Couldn't obtain argument holder");
+				args.GetReturnValue().Set(v8::Undefined(isolate));
+				return;
+			}
+		} else {
+			LOGE(TAG, "Couldn't obtain argument holder");
+			args.GetReturnValue().Set(v8::Undefined(isolate));
+			return;
+		}
+	}
+	titanium::Proxy* proxy = NativeObject::Unwrap<titanium::Proxy>(holder);
+	if (!proxy) {
+		args.GetReturnValue().Set(Undefined(isolate));
+		return;
+	}
+
+	if (args.Length() < 1) {
+		char errorStringBuffer[100];
+		sprintf(errorStringBuffer, "showFeedbackDialog: Invalid number of arguments. Expected 1 but got %d", args.Length());
+		titanium::JSException::Error(isolate, errorStringBuffer);
+		return;
+	}
+
+	jvalue jArguments[1];
+
+
+
+
+	bool isNew_0;
+	if (!args[0]->IsNull()) {
+		Local<Value> arg_0 = args[0];
+		jArguments[0].l =
+			titanium::TypeConverter::jsObjectToJavaKrollDict(
+				isolate,
+				env, arg_0, &isNew_0);
+	} else {
+		jArguments[0].l = NULL;
+	}
+
+
+	jobject javaProxy = proxy->getJavaObject();
+	if (javaProxy == NULL) {
+		args.GetReturnValue().Set(v8::Undefined(isolate));
+		return;
+	}
+	env->CallVoidMethodA(javaProxy, methodID, jArguments);
+
+	proxy->unreferenceJavaObject(javaProxy);
+
+
+
+			if (isNew_0) {
+				env->DeleteLocalRef(jArguments[0].l);
+			}
+
+
+	if (env->ExceptionCheck()) {
+		titanium::JSException::fromJavaException(isolate);
+		env->ExceptionClear();
+	}
+
+
+
+
+	args.GetReturnValue().Set(v8::Undefined(isolate));
+
+}
+void TitaniumReviewDialogModule::requestReview(const FunctionCallbackInfo<Value>& args)
+{
+	LOGD(TAG, "requestReview()");
+	Isolate* isolate = args.GetIsolate();
+	Local<Context> context = isolate->GetCurrentContext();
+	HandleScope scope(isolate);
+
+	JNIEnv *env = titanium::JNIScope::getEnv();
+	if (!env) {
+		titanium::JSException::GetJNIEnvironmentError(isolate);
+		return;
+	}
+	static jmethodID methodID = NULL;
+	if (!methodID) {
+		methodID = env->GetMethodID(TitaniumReviewDialogModule::javaClass, "requestReview", "()V");
+		if (!methodID) {
+			const char *error = "Couldn't find proxy method 'requestReview' with signature '()V'";
+			LOGE(TAG, error);
+				titanium::JSException::Error(isolate, error);
+				return;
+		}
+	}
+
+	Local<Object> holder = args.Holder();
+	if (!JavaObject::isJavaObject(holder)) {
+		holder = holder->FindInstanceInPrototypeChain(getProxyTemplate(isolate));
+	}
+	if (holder.IsEmpty() || holder->IsNull()) {
+		if (!moduleInstance.IsEmpty()) {
+			holder = moduleInstance.Get(isolate);
+			if (holder.IsEmpty() || holder->IsNull()) {
+				LOGE(TAG, "Couldn't obtain argument holder");
+				args.GetReturnValue().Set(v8::Undefined(isolate));
+				return;
+			}
+		} else {
+			LOGE(TAG, "Couldn't obtain argument holder");
+			args.GetReturnValue().Set(v8::Undefined(isolate));
+			return;
+		}
+	}
+	titanium::Proxy* proxy = NativeObject::Unwrap<titanium::Proxy>(holder);
+	if (!proxy) {
+		args.GetReturnValue().Set(Undefined(isolate));
+		return;
+	}
+
+	jvalue* jArguments = 0;
+
+
+	jobject javaProxy = proxy->getJavaObject();
+	if (javaProxy == NULL) {
+		args.GetReturnValue().Set(v8::Undefined(isolate));
+		return;
+	}
+	env->CallVoidMethodA(javaProxy, methodID, jArguments);
+
+	proxy->unreferenceJavaObject(javaProxy);
+
+
+
+	if (env->ExceptionCheck()) {
+		titanium::JSException::fromJavaException(isolate);
+		env->ExceptionClear();
+	}
+
+
+
+
+	args.GetReturnValue().Set(v8::Undefined(isolate));
 
 }
 

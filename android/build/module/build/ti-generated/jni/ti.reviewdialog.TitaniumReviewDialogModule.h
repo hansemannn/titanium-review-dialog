@@ -29,8 +29,9 @@ private:
 	static v8::Persistent<v8::Object> moduleInstance;
 
 	// Methods -----------------------------------------------------------
-	static void requestReview(const v8::FunctionCallbackInfo<v8::Value>&);
 	static void isSupported(const v8::FunctionCallbackInfo<v8::Value>&);
+	static void showFeedbackDialog(const v8::FunctionCallbackInfo<v8::Value>&);
+	static void requestReview(const v8::FunctionCallbackInfo<v8::Value>&);
 
 	// Dynamic property accessors ----------------------------------------
 

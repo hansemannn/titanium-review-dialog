@@ -8,10 +8,16 @@
  */
 package ti.reviewdialog;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.Drawable;
 
 import com.codemybrainsout.ratingdialog.RatingDialog;
+import com.google.android.play.core.review.ReviewInfo;
+import com.google.android.play.core.review.ReviewManager;
+import com.google.android.play.core.review.ReviewManagerFactory;
+import com.google.android.play.core.tasks.Task;
 
 import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollFunction;
@@ -27,24 +33,41 @@ import org.appcelerator.titanium.util.TiUrl;
 @Kroll.module(name="TitaniumReviewDialog", id="ti.reviewdialog")
 public class TitaniumReviewDialogModule extends KrollModule {
 
-	// Standard Debugging variables
-	private static final String LCAT = "TitaniumReviewDialogModule";
-	private static final boolean DBG = TiConfig.LOGD;
-
 	// Methods
 	@Kroll.method
-	public void requestReview(KrollDict configuration) throws PackageManager.NameNotFoundException {
+	public void requestReview() {
+		Activity currentActivity = TiApplication.getAppRootOrCurrentActivity();
+		ReviewManager manager = ReviewManagerFactory.create(currentActivity);
+
+		Task<ReviewInfo> request = manager.requestReviewFlow();
+		request.addOnCompleteListener(task -> {
+			if (!task.isSuccessful()) {
+				return;
+			}
+
+			ReviewInfo reviewInfo = task.getResult();
+
+			Task<Void> flow = manager.launchReviewFlow(currentActivity, reviewInfo);
+			flow.addOnCompleteListener(onCompleteTask -> {});
+		});
+	}
+
+	// Keeping the old code for legacy reasons
+	@Kroll.method
+	private void showFeedbackDialog(KrollDict configuration) throws PackageManager.NameNotFoundException {
+		Activity currentActivity = TiApplication.getAppRootOrCurrentActivity();
+
 		KrollFunction callback = (KrollFunction) configuration.get("onFeedback");
 		String storeURL = configuration.getString("storeURL");
 		String icon = configuration.getString("icon");
 
-		Drawable appIcon = appIcon = TiApplication.getAppRootOrCurrentActivity()
+		Drawable appIcon = appIcon = currentActivity
 				.getApplication()
 				.getPackageManager()
 				.getApplicationIcon(TiApplication.getInstance().getAppInfo().getId());
 
 		// Configure the base rating dialog
-		RatingDialog.Builder ratingDialogBuilder = new RatingDialog.Builder(TiApplication.getAppCurrentActivity())
+		RatingDialog.Builder ratingDialogBuilder = new RatingDialog.Builder(currentActivity)
 				.threshold(4)
 				.session(1)
 				.icon(appIcon)
