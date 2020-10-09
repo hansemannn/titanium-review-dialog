@@ -1,4 +1,9 @@
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
 
 dependencies {
-    implementation 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+    implementation 'com.github.hansemannn:smart-app-rate:1.1.1'
 }
