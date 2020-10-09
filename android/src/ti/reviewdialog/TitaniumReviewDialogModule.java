@@ -48,7 +48,11 @@ public class TitaniumReviewDialogModule extends KrollModule {
 			ReviewInfo reviewInfo = task.getResult();
 
 			Task<Void> flow = manager.launchReviewFlow(currentActivity, reviewInfo);
-			flow.addOnCompleteListener(onCompleteTask -> {});
+			flow.addOnCompleteListener(onCompleteTask -> {
+				KrollDict event = new KrollDict();
+				event.put("success", true);
+				fireEvent("complete", event);
+			});
 		});
 	}
 
@@ -110,4 +114,3 @@ public class TitaniumReviewDialogModule extends KrollModule {
 		return true; // Always supported on Android, keeping for parity with iOS
 	}
 }
-
