@@ -10,7 +10,7 @@ for best parity.
   - Titanium Mobile SDK 8+
   - iOS 10.3+
   - Android 4.4+
-  
+
 ### Android Usage
 
 ```js
@@ -24,8 +24,13 @@ Review.requestReview({
     // Send feedback to your server via "event.value"
   }
 });
+
+// when review is done
+Review.addEventListener("complete", function(e){
+	console.log(e.success);
+});
 ```
-  
+
 ### iOS Usage
 
 There are some important notes on when to show the rating dialog (thanks to [@skypanther](https://github.com/skypanther):
@@ -33,11 +38,11 @@ There are some important notes on when to show the rating dialog (thanks to [@sk
 * The internal API itself will decide when, or if, to show the prompt
 * You should not show it more than once for a given version of your app
 * You should not show the dialog in response to user actions (like after a user clicks a button)
-* You should not show it on first app launch (even after an update) but should wait until the user has used your app for a "meaningful" amount. 
+* You should not show it on first app launch (even after an update) but should wait until the user has used your app for a "meaningful" amount.
 
-The following (ES6+ based) example shows how to use it in a real world example. It relies on the [semver module](https://github.com/smclab/ti-semver) / http://gitt.io/component/semver to compare app versions. 
-Apple's own example uses a simple launch count to determine "meaningful" amount of use, which is also used 
-in this example. You should use something appropriate for your app (amount of time, completion of an 
+The following (ES6+ based) example shows how to use it in a real world example. It relies on the [semver module](https://github.com/smclab/ti-semver) / http://gitt.io/component/semver to compare app versions.
+Apple's own example uses a simple launch count to determine "meaningful" amount of use, which is also used
+in this example. You should use something appropriate for your app (amount of time, completion of an
 action N times, etc.):
 
 ```js
@@ -97,6 +102,9 @@ if (Review.isSupported()) {
 #### Methods
 - [x] `isSupported`
 - [x] `requestReview`
+
+### Events
+- [x] `complete` (Android only) **Note:** The API does not indicate whether the user reviewed or not, or even whether the review dialog was shown.
 
 ### Author
 Hans Knoechel ([@hansemannnn](https://twitter.com/hansemannnn) / [Web](https://hans-knoechel.de))
