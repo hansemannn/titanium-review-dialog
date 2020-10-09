@@ -3,3 +3,8 @@
 /ios/dist
 /ios/ti.reviewdialog.xcodeproj/project.xcworkspace
 /ios/ti.reviewdialog.xcodeproj/xcuserdata
+/android/.gradle
+android/build
+android/dist
+/android/.settings
+/android/.project
