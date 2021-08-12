@@ -26,18 +26,12 @@
 
 - (id)isSupported:(id)unused
 {
-    return @([TiUtils isIOSVersionOrGreater:@"10.3"]);
+    return @(YES); // The module's minimum target is iOS 11 now
 }
 
 - (void)requestReview:(id)unused
 {
-    ENSURE_UI_THREAD(requestReview, unused);
-
-    if (![TiUtils isIOSVersionOrGreater:@"10.3"]) {
-        NSLog(@"[ERROR] Ti.ReviewDialog: This feature is only available on iOS 10.3 and later.");
-        return;
-    }
-    
+    ENSURE_UI_THREAD(requestReview, unused);    
     [SKStoreReviewController requestReview];
 }
 
