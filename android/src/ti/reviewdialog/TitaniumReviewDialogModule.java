@@ -75,13 +75,14 @@ public class TitaniumReviewDialogModule extends KrollModule {
 				.threshold(4)
 				.session(1)
 				.icon(appIcon)
-				.onRatingBarFormSumbit(feedback -> {
+				.onRatingBarFormSubmit(feedback -> {
 					KrollDict event = new KrollDict();
 					event.put("value", feedback);
 
 					if (callback != null) {
 						callback.callAsync(getKrollObject(), event);
 					}
+					return null;
 				});
 
 		// Set store URL if available

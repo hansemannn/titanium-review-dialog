@@ -7,5 +7,5 @@ allprojects {
 
 dependencies {
     implementation 'com.google.android.play:core:1.8.2'
-    implementation 'com.github.hansemannn:smart-app-rate:1.1.1'
+    implementation 'com.codemybrainsout.rating:ratingdialog:2.0.0'
 }
