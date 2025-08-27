@@ -6,6 +6,6 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.google.android.play:review:2.0.1'
+    implementation 'com.google.android.play:review:2.0.2'
     implementation 'com.codemybrainsout.rating:ratingdialog:2.0.0'
 }
