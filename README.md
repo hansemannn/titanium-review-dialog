@@ -3,7 +3,7 @@
 <img src="example/example-screen.png" width="320" alt="Example" />
 
 ### Summary
-Use the iOS StoreKit API in your Ttanium application. Also use a native Android dialog
+Use the iOS StoreKit API in your Titanium application. Also use a native Android dialog
 for best parity.
 
 ### Requirements
