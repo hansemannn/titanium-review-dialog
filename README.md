@@ -1,15 +1,15 @@
-## Review Dialogs in Appcelerator Titanium
+## Review Dialogs in Titanium SDK
 
 <img src="example/example-screen.png" width="320" alt="Example" />
 
 ### Summary
-Use the `SKStoreReviewController` from iOS 10.3+ in your Ttanium application. Also use a native Android dialog
+Use the iOS StoreKit API in your Ttanium application. Also use a native Android dialog
 for best parity.
 
 ### Requirements
-  - Titanium Mobile SDK 8+
-  - iOS 10.3+
-  - Android 4.4+
+  - Titanium SDK 12.0.0+ (iOS) / 12.8.0+ (Android)
+  - iOS 15+
+  - Android 5+
 
 ### Android Usage
 
