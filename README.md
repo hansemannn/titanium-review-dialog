@@ -28,7 +28,7 @@ Review.addEventListener("complete", function(e){
 
 ### iOS Usage
 
-There are some important notes on when to show the rating dialog (thanks to [@skypanther](https://github.com/skypanther):
+There are some important notes on when to show the rating dialog (thanks to [@skypanther](https://github.com/skypanther)):
 
 * The internal API itself will decide when, or if, to show the prompt
 * You should not show it more than once for a given version of your app
